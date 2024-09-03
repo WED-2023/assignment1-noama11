@@ -1,6 +1,3 @@
-Here's an updated version of the README file with the mention that Bella Levy is your grandmother:
-
----
 
 ### Third Age Personal Website
 
