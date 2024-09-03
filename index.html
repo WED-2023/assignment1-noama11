@@ -4,176 +4,144 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
+  <header class="navbar">
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#my-pictures">My Pictures</a></li>
+            <li><a href="#my-playlist">My Playlist</a></li>
+            <li><a href="#like-section">Like</a></li>
+            <li><a href="#qr-code">QR Code</a></li>
+            <li><a href="#qa">Q&A</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
 		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
+<section id="about-me" class="section-bg">
+  <h2 class="section-title">About Me</h2>
+  <p><b>Bella Levy - A Life of Passion and Dedication</b></p>
+
+  <p>
+      Bella Levy was born on December 18, 1946, in Bulgaria, a place where her early years were shaped by the rich cultural heritage of her homeland. She shared her childhood with her sister Rebecca, forming a bond that would carry them through the many changes that life would bring.
+  </p>
+  
+  <p>
+      In 1948, at the tender age of two, Bella and her family embarked on a new journey, immigrating to Israel. They initially settled in Jaffa, where Bella’s life took a significant turn. It was there that she met Nissim Levy, a man who would become her lifelong partner. The two fell in love and married in 1966, marking the beginning of a new chapter in Bella’s life.
+  </p>
+  
+  <p>
+      A year later, in 1967, Bella and Nissim moved to Arad, a small town nestled in the Negev desert. Despite the harsh environment, Bella found warmth and comfort in her new home, where she would spend the rest of her life. Together, they built a family and raised four children: Hali, Sin, Rinat, and Nir. Over the years, Bella was blessed with five grandchildren, who became the light of her life.
+  </p>
+  
+  <p>
+      Arad became the backdrop for Bella’s remarkable life. She grew up with a love for music and dance, which later became an integral part of her identity. One of the most significant influences in her life was the famous Israeli singer Yehoram Gaon. His music resonated deeply with her, and through his songs and the inspiration she drew from his career, Bella found a sense of direction and purpose.
+  </p>
+  
+  <p>
+      Bella’s love for music and dance was not just a personal passion; it was something she wanted to share with others. Her desire to influence and help people led her to become a central figure in her community. She now runs a club for adults in Arad, where she organizes a variety of activities, including dancing and singing sessions. Through her work, Bella has created a vibrant space where people can come together, express themselves, and find joy in the arts.
+  </p>
+  
+  <p>
+      Cooking is another of Bella’s great talents. Her kitchen is a place where the flavors of her Bulgarian heritage come to life. She is known for her delicious Bulgarian dishes, with macaroni and cheese, peppers with cheese, and jechanon being among her specialties. These meals are more than just food; they are a way for Bella to connect with her roots and share a piece of her culture with her loved ones.
+  </p>
+  
+  <p>
+      Bella’s life is a testament to the power of passion and dedication. Whether through music, dance, or cooking, she has always found ways to touch the lives of those around her. Her story is one of resilience, creativity, and an unwavering commitment to making the world a little brighter for those in her community.
+  </p>
+
+
 </section>
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
+<section id="my-pictures" class="section-bg">
+  <h2 class="section-title">My Pictures</h2>
+  <div class="photo-gallery">
+      <img src="images/bella-1.jpeg" alt="bill1" class="small-image">
+      <img src="images/bella-2.jpeg" alt="Bill with family" class="small-image">
+      <img src="images/bella-3.jpeg" alt="bill3" class="small-image">
+  </div>
 </section>
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
+<section id="my-playlist" class="section-bg">
+  <h2 class="section-title">My Playlist</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=OLAK5uy_mgduwrvxRc1jYhAeAXUbDnshga4fF0L34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </section>
 
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
+
+<section id="like-section" class="section-bg">
+  <h2 class="section-title">Like</h2>
+  <div class="like-button-container">
+      <button id="likeButton" onclick="incrementLike()">Like ❤️</button>
+      <span id="likeCount">0</span> Likes
+  </div>
 </section>
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
+<section id="qr-code" class="section-bg">
+  <h2 class="section-title">QR Code</h2>
+  <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://yourwebsite.com&size=150x150"
+      alt="QR Code">
 </section>
 
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
+<section id="qa" class="section-bg" style="direction: rtl; text-align: right;">
+  <h2 class="section-title">Q&A</h2>
+  <div class="answer">
+      <h3>שאלה 1- שלושה הבדלים עיקריים בין Web1, Web2, ו-Web3</h3>
+      <ul>
+          <li><strong>Web1:</strong>
+              <ul>
+                  <li><strong>תוכן סטטי:</strong> רשת 1.0 מאופיינת בעמודי אינטרנט סטטיים, שבהם התוכן נמסר מהשרת והוא בעיקר לקריאה בלבד עבור המשתמשים.</li>
+                  <li><strong>אינטראקציה מוגבלת:</strong> האינטראקציה הייתה מינימלית, והמשתמשים יכלו רק לצרוך תוכן מבלי לתרום או לתקשר איתו.</li>
+                  <li><strong>פרסום מרכזי:</strong> יצירה ועדכון תוכן היו מנוהלים באופן בלעדי על ידי מנהלי אתרים, עם מעט מאוד תרומה מהציבור הרחב.</li>
+              </ul>
+          </li>
+          <li><strong>Web2:</strong>
+              <ul>
+                  <li><strong>תוכן דינמי ואינטראקטיבי:</strong> רשת 2.0 הביאה עמה עמודי אינטרנט דינמיים, שבהם המשתמשים יכולים לקיים אינטראקציה עם התוכן, כמו להגיב, לשתף ולהעלות תוכן משלהם.</li>
+                  <li><strong>תוכן שנוצר על ידי המשתמש:</strong> זו הייתה תקופה של עליית הרשתות החברתיות, הבלוגים והויקי, שבה המשתמשים הפכו גם לצרכנים וגם ליוצרים של תוכן.</li>
+                  <li><strong>שיתוף ושיתופיות:</strong> דגש על שיתוף ושיתופיות באמצעות רשתות חברתיות, שיתוף מידע והשתתפות, שבהן למשתמשים היה יותר שליטה על התוכן שהם מתקשרים איתו.</li>
+              </ul>
+          </li>
+          <li><strong>Web3:</strong>
+              <ul>
+                  <li><strong>הרשת הסמנטית:</strong> רשת 3.0 מאופיינת ברשת סמנטית, שבה נתונים מקושרים באופן משמעותי, המאפשר חיפוש ושילוב מידע בצורה יעילה יותר.</li>
+                  <li><strong>מערכות מבוזרות:</strong> Web3 מביאה עמה אפליקציות מבוזרות (dApps) וטכנולוגיית בלוקצ'יין, שמסירות את השליטה המרכזית על נתונים ומעניקות למשתמשים יותר בעלות.</li>
+                  <li><strong>רשת חכמה:</strong> שימוש בבינה מלאכותית ולמידת מכונה כדי להבין ולעבד נתונים, ולהציע חוויות מותאמות אישית ומודעות להקשר עבור המשתמשים.</li>
+              </ul>
+          </li>
+      </ul>
+  </div>
+
+  <div class="answer">
+      <h3>שאלה 2- דוגמת שימוש: חיפוש המונח "תופעות לוואי של תרופות"</h3>
+      <ul>
+          <li><strong>Web1:</strong> חיפוש אחר "תופעות לוואי של תרופות" היה מחזיר רשימה סטטית של תוצאות, בעיקר עמודים סטטיים שעלולים להיות מיושנים. התוכן היה לקריאה בלבד ללא אפשרות אינטראקטיבית, והמשתמשים היו צריכים לסנן בעצמם את המידע כדי למצוא את התשובה הרלוונטית.</li>
+          <li><strong>Web2:</strong> ב-Web2, חיפוש אחר "תופעות לוואי של תרופות" היה מחזיר תוצאות דינמיות שיכולות לכלול תוכן שנוצר על ידי המשתמשים, כמו ביקורות, פוסטים בבלוג או דיונים בפורומים. אתרי אינטרנט יכולים לאפשר למשתמשים לסנן את התוצאות או להגיב על המידע, מה שיוצר חוויה אינטראקטיבית יותר.</li>
+          <li><strong>Web3:</strong> ב-Web3, החיפוש היה מנצל טכנולוגיות רשת סמנטיות כדי לספק תוצאות שמודעות להקשר. לדוגמה, מנוע החיפוש יכול להבין את כוונת המשתמש ולספק מידע מותאם אישית, ייתכן אף ממאגרי נתונים רפואיים מבוזרים. בינה מלאכותית יכולה לנתח נתונים ממקורות רבים, כמו מחקרים מדעיים, דיווחים של מטופלים ועדכונים בזמן אמת, כדי להעניק תשובה מקיפה ורלוונטית. בנוסף, טכנולוגיית הבלוקצ'יין יכולה להבטיח שהמידע אמין ולא שונה.</li>
+      </ul>
+  </div>
 </section>
 
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+<section id="contact-me" class="section-bg">
+  <h2 class="section-title">Contact Me</h2>
+  <form onsubmit="return sendMail()" id="contactForm">
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <label for="smiley">Select a Smiley:</label>
+      <select id="smiley" name="smiley">
+          <option value="happy">😊</option>
+          <option value="sad">😢</option>
+          <option value="neutral">😐</option>
+      </select>
+
+      <button type="submit">Send</button>
+  </form>
 </section>
+
 
 
 <script type="text/javascript">
@@ -188,6 +156,16 @@ $(function(){
  $(document).scroll(function() {
     $('#menu').toggle($(this).scrollTop()>1000)
  });​
+ </script>
+
+ <script src="script.js"></script>
+ <script>
+     let likeCount = 0;
+
+     function incrementLike() {
+         likeCount++;
+         document.getElementById('likeCount').innerText = likeCount;
+     }
  </script>
 </body>
 </html>
